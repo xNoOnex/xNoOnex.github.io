@@ -1,0 +1,51 @@
+:root {
+  --bg-dark: #050505;
+  --card-bg: #111111;
+  --text-main: #f3f4f6;
+  --text-gray: #9ca3af;
+  --accent-purple: #a855f7;
+  --accent-blue: #3b82f6;
+  --accent-orange: #f59e0b;
+  --accent-green: #22c55e;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1.5; }
+
+.portfolio-container { max-width: 650px; margin: 0 auto; padding: 30px 15px; }
+
+.hero-section { margin-bottom: 40px; }
+.name { font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1.2; }
+.title { font-size: 1.2rem; color: var(--accent-blue); margin-bottom: 15px; }
+.bio { color: var(--text-gray); font-size: 1.05rem; margin-bottom: 20px; }
+
+.contact-links { display: flex; gap: 10px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 16px; border-radius: 6px; font-weight: bold; text-decoration: none; border: 1px solid transparent; cursor: pointer; }
+.bg-blue { background: var(--accent-blue); color: #fff; }
+.bg-dark { background: #1a1a1a; }
+.border-gray { border-color: #333; color: #fff; }
+.border-green { border-color: #14532d; }
+.border-purple { border-color: #4c1d95; }
+.border-orange { border-color: #78350f; }
+
+.text-green { color: var(--accent-green); }
+.text-purple { color: var(--accent-purple); }
+.text-orange { color: var(--accent-orange); }
+.text-gray { color: var(--text-gray); }
+
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.mr-2 { margin-right: 8px; } .ml-1 { margin-left: 4px; }
+.mt-2 { margin-top: 10px; } .mt-3 { margin-top: 20px; }
+
+.section-title { font-size: 1.4rem; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+
+.project-card { background: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid #333; }
+.project-name { display: flex; align-items: center; font-size: 1.2rem; }
+.badge { font-size: 0.75rem; padding: 3px 8px; border-radius: 12px; font-weight: bold; color: #fff; text-transform: uppercase; }
+.bg-green { background: #166534; }
+.bg-purple { background: #581c87; }
+.bg-orange { background: #92400e; }
+.project-desc { color: var(--text-gray); font-size: 0.95rem; margin-top: 10px; }
+
+.footer { text-align: center; margin-top: 50px; font-size: 0.9rem; padding-top: 20px; border-top: 1px solid #222; }
