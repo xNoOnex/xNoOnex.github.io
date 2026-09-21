@@ -19,7 +19,7 @@ body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1
 .title { font-size: 1.2rem; color: var(--accent-blue); margin-bottom: 15px; }
 .bio { color: var(--text-gray); font-size: 1.05rem; margin-bottom: 20px; }
 
-.contact-links { display: flex; gap: 10px; }
+.contact-links { display: flex; gap: 10px; flex-wrap: wrap; }
 .btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 16px; border-radius: 6px; font-weight: bold; text-decoration: none; border: 1px solid transparent; cursor: pointer; }
 .bg-blue { background: var(--accent-blue); color: #fff; }
 .bg-dark { background: #1a1a1a; }

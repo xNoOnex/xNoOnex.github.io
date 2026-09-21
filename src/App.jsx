@@ -1,4 +1,4 @@
-import { Briefcase, Shield, Wrench, ArrowRight, Mail, Code, Lock } from 'lucide-react';
+import { Briefcase, Shield, Wrench, ArrowRight, Mail, Code, Lock, Phone } from 'lucide-react';
 import './App.css';
 
 function App() {
@@ -23,7 +23,9 @@ function App() {
         </p>
 
         <div className="contact-links mt-3">
-          <a href="mailto:xNoOnex@dnmx.cc" className="btn bg-blue border-blue"><Mail size={18} className="mr-2"/> xNoOnex@dnmx.cc (PGP)</a>
+          <a href="tel:5206349490" className="btn bg-green border-green"><Phone size={18} className="mr-2"/> (520) 634-9490</a>
+          <a href="mailto:quintanmiddle@gmail.com" className="btn bg-blue border-blue"><Mail size={18} className="mr-2"/> Gmail</a>
+          <a href="mailto:xNoOnex@dnmx.cc" className="btn bg-dark border-gray"><Lock size={18} className="mr-2"/> PGP Email</a>
           <a href="https://github.com/xNoOnex" target="_blank" className="btn bg-dark border-gray"><Code size={18} className="mr-2"/> GitHub</a>
         </div>
       </header>
