@@ -49,3 +49,18 @@ body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1
 .project-desc { color: var(--text-gray); font-size: 0.95rem; margin-top: 10px; }
 
 .footer { text-align: center; margin-top: 50px; font-size: 0.9rem; padding-top: 20px; border-top: 1px solid #222; }
+.ethos-banner {
+  background: #111;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid var(--accent-purple);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.inline-icon {
+  flex-shrink: 0;
+}
+.font-bold {
+  font-weight: 600;
+}
