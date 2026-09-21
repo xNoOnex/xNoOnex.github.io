@@ -8,18 +8,13 @@ function App() {
       <header className="hero-section">
         <h1 className="name">Quintan Middle</h1>
         <h2 className="title">Software Engineer & Tradesman</h2>
-        
-        <div className="ethos-banner border-purple">
-          <Lock size={18} className="text-purple mr-2 inline-icon" />
-          <span className="italic font-bold">"Sovereignty is Privacy. Take back your freedom. Stay sovereign."</span>
-        </div>
 
         <p className="bio mt-3">
           I am a professional software developer who chose to spend eight years working material handling and fleet operations in Tucson instead of sitting behind a desk. I know the friction of a job site firsthand, which is why I build offline-first, zero-SaaS tools that don't break when a route loses cell service.
         </p>
         
         <p className="bio mt-2">
-          Above all, I value absolute data privacy. My architecture relies entirely on local-first data security, decentralized principles, and offline durability. No cloud dependencies, no forced subscriptions, and no analytics. Your fleet data and personal metrics never leave your device unless you explicitly export them.
+          My architecture relies entirely on local-first data security, decentralized principles, and offline durability. No cloud dependencies, no forced subscriptions, and no analytics. Your fleet data and personal metrics never leave your device unless you explicitly export them.
         </p>
 
         <div className="contact-links mt-3">
@@ -74,9 +69,14 @@ function App() {
         </div>
       </main>
 
-      <footer className="footer text-gray mt-3">
-        <p>Based in Tucson, AZ. Built for reliability. Stay Sovereign.</p>
-      </footer>
+      {/* Spacer so bottom text isn't hidden by the fixed footer */}
+      <div style={{ height: '70px' }}></div>
+
+      {/* Sticky Ethos Footer */}
+      <div className="sticky-ethos">
+        <Lock size={14} className="text-purple mr-2 inline-icon" />
+        <span className="italic font-bold text-sm">"Sovereignty is Privacy. Take back your freedom. Stay sovereign."</span>
+      </div>
     </div>
   );
 }
