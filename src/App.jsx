@@ -12,31 +12,51 @@ function App() {
         <p className="bio mt-3">
           I am a professional software developer who chose to spend eight years working material handling and fleet operations in Tucson instead of sitting behind a desk. I know the friction of a job site firsthand, which is why I build offline-first, zero-SaaS tools that don't break when a route loses cell service.
         </p>
-        
+
         <p className="bio mt-2">
           My architecture relies entirely on local-first data security, decentralized principles, and offline durability. No cloud dependencies, no forced subscriptions, and no analytics. Your fleet data and personal metrics never leave your device unless you explicitly export them.
         </p>
 
         <div className="contact-links mt-3">
-          <a href="tel:5206349490" className="btn bg-green border-green"><Phone size={18} className="mr-2"/> (520) 634-9490</a>
-          <a href="mailto:quintanmiddle@gmail.com" className="btn bg-blue border-blue"><Mail size={18} className="mr-2"/> Gmail</a>
-          <a href="mailto:xNoOnex@dnmx.cc" className="btn bg-dark border-gray"><Lock size={18} className="mr-2"/> PGP Email</a>
-          <a href="https://github.com/xNoOnex" target="_blank" className="btn bg-dark border-gray"><Code size={18} className="mr-2"/> GitHub</a>
+          <a href="tel:5206349490" className="btn bg-green border-green"><Phone size={18} className="mr-2" /> (520) 634-9490</a>
+          <a href="mailto:quintanmiddle@gmail.com" className="btn bg-blue border-blue"><Mail size={18} className="mr-2" /> Gmail</a>
+          <a href="mailto:xNoOnex@dnmx.cc" className="btn bg-dark border-gray"><Lock size={18} className="mr-2" /> PGP Email</a>
+          <a href="https://github.com/xNoOnex" target="_blank" className="btn bg-dark border-gray"><Code size={18} className="mr-2" /> GitHub</a>
+        </div>
+
+        {/* --- NEW CTA BUTTON --- */}
+        <div className="mt-4" style={{ textAlign: 'center', marginTop: '24px', marginBottom: '10px' }}>
+          <a href="https://xnoonex.github.io/sovereign-invoicing/" 
+             target="_blank" 
+             style={{ 
+               backgroundColor: '#238636', 
+               color: 'white', 
+               padding: '14px 24px', 
+               textDecoration: 'none', 
+               borderRadius: '6px', 
+               fontWeight: 'bold', 
+               fontFamily: 'monospace', 
+               fontSize: '1.05rem', 
+               display: 'inline-block',
+               border: '1px solid #2ea043',
+               boxShadow: '0 4px 12px rgba(35, 134, 54, 0.2)'
+             }}>
+            Configure Your Custom App & Get an Estimate
+          </a>
         </div>
       </header>
 
       {/* Projects Grid */}
       <main className="projects-section">
         <h3 className="section-title">Featured Builds</h3>
-        
+
         <div className="project-card border-green mt-3">
           <div className="flex-between">
             <h4 className="project-name"><Briefcase size={20} className="text-green mr-2" /> Chronos Engine</h4>
             <span className="badge bg-green">Live B2B Demo</span>
           </div>
           <p className="project-desc">
-            A standalone dispatch and invoicing toolkit for independent fleet operators. Features sign-on-glass BOLs, 
-            FMCSA HOS compliance logs, and exact crew payouts via offline epoch timestamping. Zero monthly SaaS fees.
+            A standalone dispatch and invoicing toolkit for independent fleet operators. Features sign-on-glass BOLs, FMCSA HOS compliance logs, and exact crew payouts via offline epoch timestamping. Zero monthly SaaS fees.
           </p>
           <a href="https://xNoOnex.github.io/chronos-demo" target="_blank" className="btn bg-dark text-green border-green mt-2 flex-center">
             Launch Interactive Demo <ArrowRight size={16} className="ml-1" />
@@ -49,8 +69,7 @@ function App() {
             <span className="badge bg-purple">GPL-3.0 License</span>
           </div>
           <p className="project-desc">
-            A comprehensive, local-first privacy utility suite for Android. 
-            Includes local AES encryption, a secure media vault, offline educational databases, and zero-telemetry barcode scanning.
+            A comprehensive, local-first privacy utility suite for Android. Includes local AES encryption, a secure media vault, offline educational databases, and zero-telemetry barcode scanning.
           </p>
           <a href="https://github.com/xNoOnex/SovereignTools1" target="_blank" className="btn bg-dark text-purple border-purple mt-2 flex-center">
             View Source Code <ArrowRight size={16} className="ml-1" />
@@ -63,8 +82,7 @@ function App() {
             <span className="badge bg-orange">Proprietary</span>
           </div>
           <p className="project-desc">
-            A highly specialized mobile toolkit featuring multi-track media editing, culinary measurement algorithms, and rapid local-device 
-            React development environments. Built entirely on mobile, for mobile deployment.
+            A highly specialized mobile toolkit featuring multi-track media editing, culinary measurement algorithms, and rapid local-device React development environments. Built entirely on mobile, for mobile deployment.
           </p>
         </div>
       </main>
