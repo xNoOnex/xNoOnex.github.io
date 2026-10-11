@@ -58,7 +58,6 @@ function App() {
           </a>
         </div>
 
-        {/* --- PGP KEY COLLAPSIBLE BLOCK --- */}
         <details className="mt-3" style={{ background: '#11161d', border: '1px solid #30363d', borderRadius: '6px', padding: '12px' }}>
           <summary style={{ cursor: 'pointer', color: '#bc8cff', fontWeight: 'bold', fontSize: '0.85rem', outline: 'none', display: 'flex', alignItems: 'center' }}>
             <Lock size={16} className="mr-2" /> View Public PGP Key
@@ -75,7 +74,6 @@ function App() {
         </details>
       </header>
 
-      {/* Estimator CTA Card */}
       <div className="project-card border-green mt-4" style={{ backgroundColor: '#11161d' }}>
         <div className="flex-between">
           <h4 className="project-name text-green"><Calculator size={20} className="mr-2" /> Universal Deployment Estimator</h4>
@@ -84,14 +82,13 @@ function App() {
         <p className="project-desc">
           Configure offline-first software requirements, calculate flat-rate deployment scopes, and generate binding fleet service agreements dynamically.
         </p>
-        <a href="https://xnoonex.github.io/sovereign-invoicing/" target="_blank" className="btn bg-dark border-green text-green mt-2 flex-center">
+        <a href="https://sovereigntyisprivacy.com/sovereign-invoicing/" target="_blank" className="btn bg-dark border-green text-green mt-2 flex-center">
           Configure Custom App & Estimate <ArrowRight size={16} className="ml-1" />
         </a>
       </div>
 
       <main className="projects-section">
         
-        {/* Category 1: B2B Fleet */}
         <h3 className="section-title mt-4" style={{ borderBottom: '1px dashed #30363d', paddingBottom: '8px', color: '#8b949e', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
           Commercial & Fleet Operations
         </h3>
@@ -104,12 +101,11 @@ function App() {
           <p className="project-desc">
             A standalone dispatch and invoicing toolkit for independent fleet operators. Features sign-on-glass BOLs, FMCSA HOS compliance logs, and exact crew payouts via offline epoch timestamping. Zero monthly SaaS fees.
           </p>
-          <a href="https://xNoOnex.github.io/chronos-demo" target="_blank" className="btn bg-dark text-green border-green mt-2 flex-center">
+          <a href="https://sovereigntyisprivacy.com/chronos-demo/" target="_blank" className="btn bg-dark text-green border-green mt-2 flex-center">
             Launch Interactive Demo <ArrowRight size={16} className="ml-1" />
           </a>
         </div>
 
-        {/* Category 2: Security */}
         <h3 className="section-title mt-4" style={{ borderBottom: '1px dashed #30363d', paddingBottom: '8px', color: '#8b949e', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
           Privacy & Security Infrastructure
         </h3>
@@ -122,12 +118,11 @@ function App() {
           <p className="project-desc">
             A comprehensive, local-first privacy utility suite for Android. Includes local AES encryption, a secure media vault, offline educational databases, and zero-telemetry barcode scanning.
           </p>
-          <a href="https://github.com/xNoOnex/SovereignTools1" target="_blank" className="btn bg-dark text-purple border-purple mt-2 flex-center">
-            View Source Code <ArrowRight size={16} className="ml-1" />
+          <a href="https://sovereigntyisprivacy.com/SovereignTools1/#download" target="_blank" className="btn bg-dark text-purple border-purple mt-2 flex-center">
+            Download App <ArrowRight size={16} className="ml-1" />
           </a>
         </div>
 
-        {/* Category 3: Consumer / Utilities */}
         <h3 className="section-title mt-4" style={{ borderBottom: '1px dashed #30363d', paddingBottom: '8px', color: '#8b949e', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px' }}>
           Specialized Consumer Utilities
         </h3>
@@ -150,6 +145,9 @@ function App() {
           <p className="project-desc">
             A dedicated daily routine application architected to assist with structured task tracking, schedule planning, and localized medication logging without cloud syncing.
           </p>
+          <a href="https://github.com/xNoOnex/Sovereign-Memory" target="_blank" className="btn bg-dark text-blue border-blue mt-2 flex-center">
+            View Release <ArrowRight size={16} className="ml-1" />
+          </a>
         </div>
 
         <div className="project-card border-gray mt-3">
@@ -160,6 +158,9 @@ function App() {
           <p className="project-desc">
             An automated tabletop engine engineered to track 5th Edition combat math, initiative queues, bestiary entries, and dynamic player character sheets entirely offline.
           </p>
+          <a href="https://github.com/xNoOnex/No-hassle-D-D" target="_blank" className="btn bg-dark text-gray border-gray mt-2 flex-center">
+            View Release <ArrowRight size={16} className="ml-1" />
+          </a>
         </div>
 
         <div className="project-card border-purple mt-3">
@@ -170,14 +171,15 @@ function App() {
           <p className="project-desc">
             A custom Android jigsaw puzzle generator compiled via GitHub Actions featuring dynamic piece configuration, adjustable grid layouts, and secure custom offline image uploads.
           </p>
+          <a href="https://github.com/xNoOnex/Sovereign-Jigsaw" target="_blank" className="btn bg-dark text-purple border-purple mt-2 flex-center">
+            View Source Code <ArrowRight size={16} className="ml-1" />
+          </a>
         </div>
 
       </main>
 
-      {/* Spacer so bottom text isn't hidden by the fixed footer */}
       <div style={{ height: '70px' }}></div>
 
-      {/* Sticky Ethos Footer */}
       <div className="sticky-ethos">
         <Lock size={14} className="text-purple mr-2 inline-icon" />
         <span className="italic font-bold text-sm">"Sovereignty is Privacy. Take back your freedom. Stay sovereign."</span>
