@@ -50,7 +50,7 @@ function App() {
           <a href="mailto:quintanmiddle@gmail.com" className="btn bg-dark border-blue text-blue">
             <Mail size={18} className="mr-2" /> Gmail
           </a>
-          <a href="mailto:xNoOnex@dnmx.cc" className="btn bg-dark border-purple text-purple">
+          <a href="mailto:xNoOnex@proton.me" className="btn bg-dark border-purple text-purple">
             <Lock size={18} className="mr-2" /> PGP Email
           </a>
           <a href="https://github.com/xNoOnex" target="_blank" className="btn bg-dark border-gray text-gray">
@@ -68,7 +68,7 @@ function App() {
               {copied ? <Check size={14} className="mr-1" /> : <Copy size={14} className="mr-1" />}
               {copied ? 'Copied!' : 'Copy Key'}
             </button>
-            <pre style={{ background: '#0d1117', padding: '14px', paddingTop: '38px', borderRadius: '4px', fontSize: '0.65rem', color: '#8b949e', overflowX: 'auto', border: '1px dashed #30363d', margin: 0 }}>
+            <pre style={{ background: '#0d1117', padding: '14px', paddingTop: '38px', borderRadius: '4px', fontSize: '0.65rem', color: '#8b949e', overflowX: 'auto', border: '1px dashed #30363d', margin: 0, textAlign: 'left' }}>
               {pgpKey}
             </pre>
           </div>
